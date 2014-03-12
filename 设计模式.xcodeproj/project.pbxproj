@@ -19,6 +19,39 @@
 		7540D79418C5A65A000BB418 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7540D77C18C5A65A000BB418 /* UIKit.framework */; };
 		7540D79C18C5A65A000BB418 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7540D79A18C5A65A000BB418 /* InfoPlist.strings */; };
 		7540D79E18C5A65A000BB418 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7540D79D18C5A65A000BB418 /* ____Tests.m */; };
+		7540D7B318C5A6BD000BB418 /* ConsoleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7540D7AA18C5A6BD000BB418 /* ConsoleController.m */; };
+		7540D7B418C5A6BD000BB418 /* ConsoleEmulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7540D7AC18C5A6BD000BB418 /* ConsoleEmulator.m */; };
+		7540D7B518C5A6BD000BB418 /* GameBoyEmulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7540D7AE18C5A6BD000BB418 /* GameBoyEmulator.m */; };
+		7540D7B618C5A6BD000BB418 /* GameGearEmulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7540D7B018C5A6BD000BB418 /* GameGearEmulator.m */; };
+		7540D7B718C5A6BD000BB418 /* TouchConsoleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7540D7B218C5A6BD000BB418 /* TouchConsoleController.m */; };
+		7540D7BD18C5A6FD000BB418 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 7540D7BA18C5A6FD000BB418 /* Command.m */; };
+		7540D7BE18C5A6FD000BB418 /* SetStrokeColorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 7540D7BC18C5A6FD000BB418 /* SetStrokeColorCommand.m */; };
+		7540D7CB18C5AA28000BB418 /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 7540D7CA18C5AA28000BB418 /* Vertex.m */; };
+		7540D7CE18C5ACC3000BB418 /* Dot.m in Sources */ = {isa = PBXBuildFile; fileRef = 7540D7CD18C5ACC3000BB418 /* Dot.m */; };
+		7540D7D118C5AE4A000BB418 /* Stroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 7540D7D018C5AE4A000BB418 /* Stroke.m */; };
+		7540D7D518C5B3DF000BB418 /* PaperCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7540D7D418C5B3DF000BB418 /* PaperCanvasView.m */; };
+		7540D7D818C5B563000BB418 /* ClothCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7540D7D718C5B563000BB418 /* ClothCanvasView.m */; };
+		7540D7DB18C5B5D9000BB418 /* CanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7540D7DA18C5B5D9000BB418 /* CanvasViewGenerator.m */; };
+		7540D7DE18C5B65F000BB418 /* PaperCanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7540D7DD18C5B65F000BB418 /* PaperCanvasViewGenerator.m */; };
+		7540D7E118C5B6C1000BB418 /* ClothCanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7540D7E018C5B6C1000BB418 /* ClothCanvasViewGenerator.m */; };
+		7540D7E418C5B8E9000BB418 /* canvasViewCondtroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 7540D7E318C5B8E9000BB418 /* canvasViewCondtroller.m */; };
+		75430CA118C844C7003A190E /* 外观.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75430CA018C844C7003A190E /* 外观.strings */; };
+		75430CA318C84550003A190E /* 工厂方法.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75430CA218C84550003A190E /* 工厂方法.strings */; };
+		75430CA518C845A4003A190E /* 原型.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75430CA418C845A4003A190E /* 原型.strings */; };
+		75430CA718C84654003A190E /* 适配器.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75430CA618C84654003A190E /* 适配器.strings */; };
+		75430CA918C846C0003A190E /* 桥接.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75430CA818C846C0003A190E /* 桥接.strings */; };
+		75430CAD18C84841003A190E /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 75430CAC18C84841003A190E /* Character.m */; };
+		75430CB018C8497C003A190E /* CharacterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 75430CAF18C8497C003A190E /* CharacterBuilder.m */; };
+		75430CB318C84B50003A190E /* StandardCaracterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 75430CB218C84B50003A190E /* StandardCaracterBuilder.m */; };
+		75430CB618C84CB7003A190E /* ChasingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 75430CB518C84CB7003A190E /* ChasingGame.m */; };
+		75430CB918C84EE0003A190E /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 75430CB818C84EE0003A190E /* Car.m */; };
+		75430CBC18C84F28003A190E /* Taximeter.m in Sources */ = {isa = PBXBuildFile; fileRef = 75430CBB18C84F28003A190E /* Taximeter.m */; };
+		75430CBF18C84F56003A190E /* CabDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 75430CBE18C84F56003A190E /* CabDriver.m */; };
+		75430CC218C85196003A190E /* 中介者.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75430CC118C85196003A190E /* 中介者.strings */; };
+		75430CC918C85283003A190E /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75430CC818C85283003A190E /* CanvasViewController.m */; };
+		75430CCC18C85299003A190E /* PaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75430CCB18C85299003A190E /* PaletteViewController.m */; };
+		75430CCF18C852B1003A190E /* ThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75430CCE18C852B1003A190E /* ThumbnailViewController.m */; };
+		75430CD218C852E2003A190E /* CoordinatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75430CD118C852E2003A190E /* CoordinatingController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +81,67 @@
 		7540D79918C5A65A000BB418 /* 设计模式Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "设计模式Tests-Info.plist"; sourceTree = "<group>"; };
 		7540D79B18C5A65A000BB418 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7540D79D18C5A65A000BB418 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		7540D7A918C5A6BD000BB418 /* ConsoleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoleController.h; sourceTree = "<group>"; };
+		7540D7AA18C5A6BD000BB418 /* ConsoleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleController.m; sourceTree = "<group>"; };
+		7540D7AB18C5A6BD000BB418 /* ConsoleEmulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoleEmulator.h; sourceTree = "<group>"; };
+		7540D7AC18C5A6BD000BB418 /* ConsoleEmulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleEmulator.m; sourceTree = "<group>"; };
+		7540D7AD18C5A6BD000BB418 /* GameBoyEmulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameBoyEmulator.h; sourceTree = "<group>"; };
+		7540D7AE18C5A6BD000BB418 /* GameBoyEmulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameBoyEmulator.m; sourceTree = "<group>"; };
+		7540D7AF18C5A6BD000BB418 /* GameGearEmulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameGearEmulator.h; sourceTree = "<group>"; };
+		7540D7B018C5A6BD000BB418 /* GameGearEmulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameGearEmulator.m; sourceTree = "<group>"; };
+		7540D7B118C5A6BD000BB418 /* TouchConsoleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchConsoleController.h; sourceTree = "<group>"; };
+		7540D7B218C5A6BD000BB418 /* TouchConsoleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchConsoleController.m; sourceTree = "<group>"; };
+		7540D7B918C5A6FD000BB418 /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		7540D7BA18C5A6FD000BB418 /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		7540D7BB18C5A6FD000BB418 /* SetStrokeColorCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetStrokeColorCommand.h; sourceTree = "<group>"; };
+		7540D7BC18C5A6FD000BB418 /* SetStrokeColorCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetStrokeColorCommand.m; sourceTree = "<group>"; };
+		7540D7C818C5AA0B000BB418 /* Mark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mark.h; sourceTree = "<group>"; };
+		7540D7C918C5AA28000BB418 /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
+		7540D7CA18C5AA28000BB418 /* Vertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vertex.m; sourceTree = "<group>"; };
+		7540D7CC18C5ACC3000BB418 /* Dot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dot.h; sourceTree = "<group>"; };
+		7540D7CD18C5ACC3000BB418 /* Dot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dot.m; sourceTree = "<group>"; };
+		7540D7CF18C5AE4A000BB418 /* Stroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stroke.h; sourceTree = "<group>"; };
+		7540D7D018C5AE4A000BB418 /* Stroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stroke.m; sourceTree = "<group>"; };
+		7540D7D318C5B3DF000BB418 /* PaperCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperCanvasView.h; sourceTree = "<group>"; };
+		7540D7D418C5B3DF000BB418 /* PaperCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperCanvasView.m; sourceTree = "<group>"; };
+		7540D7D618C5B563000BB418 /* ClothCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothCanvasView.h; sourceTree = "<group>"; };
+		7540D7D718C5B563000BB418 /* ClothCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothCanvasView.m; sourceTree = "<group>"; };
+		7540D7D918C5B5D9000BB418 /* CanvasViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewGenerator.h; sourceTree = "<group>"; };
+		7540D7DA18C5B5D9000BB418 /* CanvasViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewGenerator.m; sourceTree = "<group>"; };
+		7540D7DC18C5B65F000BB418 /* PaperCanvasViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperCanvasViewGenerator.h; sourceTree = "<group>"; };
+		7540D7DD18C5B65F000BB418 /* PaperCanvasViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperCanvasViewGenerator.m; sourceTree = "<group>"; };
+		7540D7DF18C5B6C1000BB418 /* ClothCanvasViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothCanvasViewGenerator.h; sourceTree = "<group>"; };
+		7540D7E018C5B6C1000BB418 /* ClothCanvasViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothCanvasViewGenerator.m; sourceTree = "<group>"; };
+		7540D7E218C5B8E9000BB418 /* canvasViewCondtroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = canvasViewCondtroller.h; sourceTree = "<group>"; };
+		7540D7E318C5B8E9000BB418 /* canvasViewCondtroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = canvasViewCondtroller.m; sourceTree = "<group>"; };
+		75430CA018C844C7003A190E /* 外观.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = "外观.strings"; sourceTree = "<group>"; };
+		75430CA218C84550003A190E /* 工厂方法.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = "工厂方法.strings"; sourceTree = "<group>"; };
+		75430CA418C845A4003A190E /* 原型.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = "原型.strings"; sourceTree = "<group>"; };
+		75430CA618C84654003A190E /* 适配器.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = "适配器.strings"; sourceTree = "<group>"; };
+		75430CA818C846C0003A190E /* 桥接.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = "桥接.strings"; sourceTree = "<group>"; };
+		75430CAB18C84841003A190E /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		75430CAC18C84841003A190E /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
+		75430CAE18C8497C003A190E /* CharacterBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterBuilder.h; sourceTree = "<group>"; };
+		75430CAF18C8497C003A190E /* CharacterBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterBuilder.m; sourceTree = "<group>"; };
+		75430CB118C84B50003A190E /* StandardCaracterBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandardCaracterBuilder.h; sourceTree = "<group>"; };
+		75430CB218C84B50003A190E /* StandardCaracterBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandardCaracterBuilder.m; sourceTree = "<group>"; };
+		75430CB418C84CB7003A190E /* ChasingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChasingGame.h; sourceTree = "<group>"; };
+		75430CB518C84CB7003A190E /* ChasingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChasingGame.m; sourceTree = "<group>"; };
+		75430CB718C84EE0003A190E /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		75430CB818C84EE0003A190E /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		75430CBA18C84F28003A190E /* Taximeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Taximeter.h; sourceTree = "<group>"; };
+		75430CBB18C84F28003A190E /* Taximeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Taximeter.m; sourceTree = "<group>"; };
+		75430CBD18C84F56003A190E /* CabDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CabDriver.h; sourceTree = "<group>"; };
+		75430CBE18C84F56003A190E /* CabDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CabDriver.m; sourceTree = "<group>"; };
+		75430CC118C85196003A190E /* 中介者.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = "中介者.strings"; sourceTree = "<group>"; };
+		75430CC718C85283003A190E /* CanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewController.h; sourceTree = "<group>"; };
+		75430CC818C85283003A190E /* CanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewController.m; sourceTree = "<group>"; };
+		75430CCA18C85299003A190E /* PaletteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteViewController.h; sourceTree = "<group>"; };
+		75430CCB18C85299003A190E /* PaletteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaletteViewController.m; sourceTree = "<group>"; };
+		75430CCD18C852B1003A190E /* ThumbnailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbnailViewController.h; sourceTree = "<group>"; };
+		75430CCE18C852B1003A190E /* ThumbnailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbnailViewController.m; sourceTree = "<group>"; };
+		75430CD018C852E2003A190E /* CoordinatingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinatingController.h; sourceTree = "<group>"; };
+		75430CD118C852E2003A190E /* CoordinatingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoordinatingController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +168,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		753388AB18C94FBD000786D0 /* 访问者 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "访问者";
+			sourceTree = SOURCE_ROOT;
+		};
 		7540D76C18C5A65A000BB418 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +208,14 @@
 		7540D77E18C5A65A000BB418 /* 设计模式 */ = {
 			isa = PBXGroup;
 			children = (
+				753388AB18C94FBD000786D0 /* 访问者 */,
+				75430CC018C85187003A190E /* 中介者 */,
+				75430CAA18C84807003A190E /* 生成器 */,
+				75430C9F18C84499003A190E /* 外观 */,
+				7540D7D218C5B343000BB418 /* 工厂方法 */,
+				7540D7C418C5A858000BB418 /* 原型 */,
+				7540D7B818C5A6FD000BB418 /* 适配器 */,
+				7540D7A818C5A6BD000BB418 /* 桥接 */,
 				7540D78718C5A65A000BB418 /* AppDelegate.h */,
 				7540D78818C5A65A000BB418 /* AppDelegate.m */,
 				7540D78A18C5A65A000BB418 /* Images.xcassets */,
@@ -143,6 +252,116 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		7540D7A818C5A6BD000BB418 /* 桥接 */ = {
+			isa = PBXGroup;
+			children = (
+				7540D7A918C5A6BD000BB418 /* ConsoleController.h */,
+				7540D7AA18C5A6BD000BB418 /* ConsoleController.m */,
+				7540D7AB18C5A6BD000BB418 /* ConsoleEmulator.h */,
+				7540D7AC18C5A6BD000BB418 /* ConsoleEmulator.m */,
+				7540D7AD18C5A6BD000BB418 /* GameBoyEmulator.h */,
+				7540D7AE18C5A6BD000BB418 /* GameBoyEmulator.m */,
+				7540D7AF18C5A6BD000BB418 /* GameGearEmulator.h */,
+				7540D7B018C5A6BD000BB418 /* GameGearEmulator.m */,
+				7540D7B118C5A6BD000BB418 /* TouchConsoleController.h */,
+				7540D7B218C5A6BD000BB418 /* TouchConsoleController.m */,
+				75430CA818C846C0003A190E /* 桥接.strings */,
+			);
+			path = "桥接";
+			sourceTree = SOURCE_ROOT;
+		};
+		7540D7B818C5A6FD000BB418 /* 适配器 */ = {
+			isa = PBXGroup;
+			children = (
+				75430CA618C84654003A190E /* 适配器.strings */,
+				7540D7B918C5A6FD000BB418 /* Command.h */,
+				7540D7BA18C5A6FD000BB418 /* Command.m */,
+				7540D7BB18C5A6FD000BB418 /* SetStrokeColorCommand.h */,
+				7540D7BC18C5A6FD000BB418 /* SetStrokeColorCommand.m */,
+			);
+			path = "适配器";
+			sourceTree = SOURCE_ROOT;
+		};
+		7540D7C418C5A858000BB418 /* 原型 */ = {
+			isa = PBXGroup;
+			children = (
+				75430CA418C845A4003A190E /* 原型.strings */,
+				7540D7C818C5AA0B000BB418 /* Mark.h */,
+				7540D7C918C5AA28000BB418 /* Vertex.h */,
+				7540D7CA18C5AA28000BB418 /* Vertex.m */,
+				7540D7CC18C5ACC3000BB418 /* Dot.h */,
+				7540D7CD18C5ACC3000BB418 /* Dot.m */,
+				7540D7CF18C5AE4A000BB418 /* Stroke.h */,
+				7540D7D018C5AE4A000BB418 /* Stroke.m */,
+			);
+			path = "原型";
+			sourceTree = SOURCE_ROOT;
+		};
+		7540D7D218C5B343000BB418 /* 工厂方法 */ = {
+			isa = PBXGroup;
+			children = (
+				75430CA218C84550003A190E /* 工厂方法.strings */,
+				7540D7D318C5B3DF000BB418 /* PaperCanvasView.h */,
+				7540D7D418C5B3DF000BB418 /* PaperCanvasView.m */,
+				7540D7D618C5B563000BB418 /* ClothCanvasView.h */,
+				7540D7D718C5B563000BB418 /* ClothCanvasView.m */,
+				7540D7D918C5B5D9000BB418 /* CanvasViewGenerator.h */,
+				7540D7DA18C5B5D9000BB418 /* CanvasViewGenerator.m */,
+				7540D7DC18C5B65F000BB418 /* PaperCanvasViewGenerator.h */,
+				7540D7DD18C5B65F000BB418 /* PaperCanvasViewGenerator.m */,
+				7540D7DF18C5B6C1000BB418 /* ClothCanvasViewGenerator.h */,
+				7540D7E018C5B6C1000BB418 /* ClothCanvasViewGenerator.m */,
+				7540D7E218C5B8E9000BB418 /* canvasViewCondtroller.h */,
+				7540D7E318C5B8E9000BB418 /* canvasViewCondtroller.m */,
+			);
+			path = "工厂方法";
+			sourceTree = SOURCE_ROOT;
+		};
+		75430C9F18C84499003A190E /* 外观 */ = {
+			isa = PBXGroup;
+			children = (
+				75430CA018C844C7003A190E /* 外观.strings */,
+				75430CB718C84EE0003A190E /* Car.h */,
+				75430CB818C84EE0003A190E /* Car.m */,
+				75430CBA18C84F28003A190E /* Taximeter.h */,
+				75430CBB18C84F28003A190E /* Taximeter.m */,
+				75430CBD18C84F56003A190E /* CabDriver.h */,
+				75430CBE18C84F56003A190E /* CabDriver.m */,
+			);
+			path = "外观";
+			sourceTree = SOURCE_ROOT;
+		};
+		75430CAA18C84807003A190E /* 生成器 */ = {
+			isa = PBXGroup;
+			children = (
+				75430CAB18C84841003A190E /* Character.h */,
+				75430CAC18C84841003A190E /* Character.m */,
+				75430CAE18C8497C003A190E /* CharacterBuilder.h */,
+				75430CAF18C8497C003A190E /* CharacterBuilder.m */,
+				75430CB118C84B50003A190E /* StandardCaracterBuilder.h */,
+				75430CB218C84B50003A190E /* StandardCaracterBuilder.m */,
+				75430CB418C84CB7003A190E /* ChasingGame.h */,
+				75430CB518C84CB7003A190E /* ChasingGame.m */,
+			);
+			path = "生成器";
+			sourceTree = SOURCE_ROOT;
+		};
+		75430CC018C85187003A190E /* 中介者 */ = {
+			isa = PBXGroup;
+			children = (
+				75430CC118C85196003A190E /* 中介者.strings */,
+				75430CC718C85283003A190E /* CanvasViewController.h */,
+				75430CC818C85283003A190E /* CanvasViewController.m */,
+				75430CCA18C85299003A190E /* PaletteViewController.h */,
+				75430CCB18C85299003A190E /* PaletteViewController.m */,
+				75430CCD18C852B1003A190E /* ThumbnailViewController.h */,
+				75430CCE18C852B1003A190E /* ThumbnailViewController.m */,
+				75430CD018C852E2003A190E /* CoordinatingController.h */,
+				75430CD118C852E2003A190E /* CoordinatingController.m */,
+			);
+			path = "中介者";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -219,7 +438,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75430CC218C85196003A190E /* 中介者.strings in Resources */,
 				7540D78318C5A65A000BB418 /* InfoPlist.strings in Resources */,
+				75430CA518C845A4003A190E /* 原型.strings in Resources */,
+				75430CA918C846C0003A190E /* 桥接.strings in Resources */,
+				75430CA718C84654003A190E /* 适配器.strings in Resources */,
+				75430CA318C84550003A190E /* 工厂方法.strings in Resources */,
+				75430CA118C844C7003A190E /* 外观.strings in Resources */,
 				7540D78B18C5A65A000BB418 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,8 +464,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7540D7CE18C5ACC3000BB418 /* Dot.m in Sources */,
+				7540D7B418C5A6BD000BB418 /* ConsoleEmulator.m in Sources */,
+				7540D7B618C5A6BD000BB418 /* GameGearEmulator.m in Sources */,
+				75430CB318C84B50003A190E /* StandardCaracterBuilder.m in Sources */,
+				7540D7B718C5A6BD000BB418 /* TouchConsoleController.m in Sources */,
+				7540D7BD18C5A6FD000BB418 /* Command.m in Sources */,
+				75430CB018C8497C003A190E /* CharacterBuilder.m in Sources */,
 				7540D78918C5A65A000BB418 /* AppDelegate.m in Sources */,
+				7540D7B318C5A6BD000BB418 /* ConsoleController.m in Sources */,
+				75430CBC18C84F28003A190E /* Taximeter.m in Sources */,
+				7540D7E418C5B8E9000BB418 /* canvasViewCondtroller.m in Sources */,
+				7540D7D818C5B563000BB418 /* ClothCanvasView.m in Sources */,
+				75430CBF18C84F56003A190E /* CabDriver.m in Sources */,
+				75430CAD18C84841003A190E /* Character.m in Sources */,
+				7540D7BE18C5A6FD000BB418 /* SetStrokeColorCommand.m in Sources */,
+				75430CB618C84CB7003A190E /* ChasingGame.m in Sources */,
+				75430CC918C85283003A190E /* CanvasViewController.m in Sources */,
+				7540D7E118C5B6C1000BB418 /* ClothCanvasViewGenerator.m in Sources */,
+				7540D7D518C5B3DF000BB418 /* PaperCanvasView.m in Sources */,
+				75430CCF18C852B1003A190E /* ThumbnailViewController.m in Sources */,
+				75430CB918C84EE0003A190E /* Car.m in Sources */,
+				7540D7DB18C5B5D9000BB418 /* CanvasViewGenerator.m in Sources */,
+				75430CCC18C85299003A190E /* PaletteViewController.m in Sources */,
+				7540D7DE18C5B65F000BB418 /* PaperCanvasViewGenerator.m in Sources */,
+				7540D7CB18C5AA28000BB418 /* Vertex.m in Sources */,
+				7540D7B518C5A6BD000BB418 /* GameBoyEmulator.m in Sources */,
+				75430CD218C852E2003A190E /* CoordinatingController.m in Sources */,
 				7540D78518C5A65A000BB418 /* main.m in Sources */,
+				7540D7D118C5AE4A000BB418 /* Stroke.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +693,7 @@
 				7540D7A318C5A65A000BB418 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7540D7A418C5A65A000BB418 /* Build configuration list for PBXNativeTarget "设计模式Tests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +702,7 @@
 				7540D7A618C5A65A000BB418 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
