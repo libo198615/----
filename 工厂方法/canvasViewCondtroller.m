@@ -34,10 +34,11 @@
 
 //用不同的画布 直接调用此方法
 - (void)loadCanvasViewWithGenerator:(CanvasViewGenerator *)generator{
-    [self.view removeFromSuperview];
+    [_canvasView removeFromSuperview];
     CGRect aFrame = CGRectMake(0, 0, 0, 0);
-    UIView *aview = [generator canvasViewWithFrame:aFrame];
-    [self.view addSubview:aview];
+    CanvasView *aCanvasView = [generator canvasViewWithFrame:aFrame];
+    [self setCanvasView:aCanvasView];
+    [self.view addSubview:_canvasView];
 }
 
 - (void)didReceiveMemoryWarning

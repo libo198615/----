@@ -7,8 +7,8 @@
 
 #import <Foundation/Foundation.h>
 
+/* 人物角色 */
 @interface Character : NSObject
-
 
 @property (nonatomic, assign) float protection;
 @property (nonatomic, assign) float power;

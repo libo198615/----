@@ -8,10 +8,12 @@
 
 #import "CanvasViewGenerator.h"
 #import "PaperCanvasView.h"
+#import "CanvasView.h"
 
+/* 纸质 */
 @interface PaperCanvasViewGenerator : CanvasViewGenerator
 
 
-- (UIView *)canvasViewWithFrame:(CGRect )aFrame;
+- (CanvasView *)canvasViewWithFrame:(CGRect )aFrame;
 
 @end

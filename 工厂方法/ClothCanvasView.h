@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CanvasView.h"
 
-@interface ClothCanvasView : UIView
+@interface ClothCanvasView : CanvasView
 
 @end

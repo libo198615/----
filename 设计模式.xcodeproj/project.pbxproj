@@ -52,6 +52,20 @@
 		75430CCC18C85299003A190E /* PaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75430CCB18C85299003A190E /* PaletteViewController.m */; };
 		75430CCF18C852B1003A190E /* ThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75430CCE18C852B1003A190E /* ThumbnailViewController.m */; };
 		75430CD218C852E2003A190E /* CoordinatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75430CD118C852E2003A190E /* CoordinatingController.m */; };
+		7549776919EFA71B0003E0A8 /* CommandCanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7549776219EFA71B0003E0A8 /* CommandCanvasViewController.m */; };
+		7549776A19EFA71B0003E0A8 /* CommandCoordinatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7549776419EFA71B0003E0A8 /* CommandCoordinatingController.m */; };
+		7549776B19EFA71B0003E0A8 /* CommandPaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7549776619EFA71B0003E0A8 /* CommandPaletteViewController.m */; };
+		7549776C19EFA71B0003E0A8 /* CommandThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7549776819EFA71B0003E0A8 /* CommandThumbnailViewController.m */; };
+		7549776F19EFAD0D0003E0A8 /* CommandSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 7549776E19EFAD0D0003E0A8 /* CommandSlider.m */; };
+		7549777219EFBE9F0003E0A8 /* ConsoleCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = 7549777119EFBE9F0003E0A8 /* ConsoleCommands.m */; };
+		75DDF03219EE175400CADB5D /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DDF03119EE175400CADB5D /* CanvasView.m */; };
+		75DDF03619EE71E600CADB5D /* BrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DDF03519EE71E600CADB5D /* BrandingFactory.m */; };
+		75DDF03919EE727600CADB5D /* AcmeBrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DDF03819EE727600CADB5D /* AcmeBrandingFactory.m */; };
+		75DDF03C19EE728700CADB5D /* SierraBrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DDF03B19EE728700CADB5D /* SierraBrandingFactory.m */; };
+		75DDF03F19EE73FA00CADB5D /* AcmeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DDF03E19EE73FA00CADB5D /* AcmeView.m */; };
+		75DDF04219EE740700CADB5D /* AcmeMainButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DDF04119EE740700CADB5D /* AcmeMainButton.m */; };
+		75DDF04519EE741E00CADB5D /* AcmeToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DDF04419EE741E00CADB5D /* AcmeToolbar.m */; };
+		75DDF04819EE7BC500CADB5D /* playViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DDF04719EE7BC500CADB5D /* playViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -142,6 +156,34 @@
 		75430CCE18C852B1003A190E /* ThumbnailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbnailViewController.m; sourceTree = "<group>"; };
 		75430CD018C852E2003A190E /* CoordinatingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinatingController.h; sourceTree = "<group>"; };
 		75430CD118C852E2003A190E /* CoordinatingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoordinatingController.m; sourceTree = "<group>"; };
+		7549776119EFA71B0003E0A8 /* CommandCanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandCanvasViewController.h; sourceTree = "<group>"; };
+		7549776219EFA71B0003E0A8 /* CommandCanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandCanvasViewController.m; sourceTree = "<group>"; };
+		7549776319EFA71B0003E0A8 /* CommandCoordinatingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandCoordinatingController.h; sourceTree = "<group>"; };
+		7549776419EFA71B0003E0A8 /* CommandCoordinatingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandCoordinatingController.m; sourceTree = "<group>"; };
+		7549776519EFA71B0003E0A8 /* CommandPaletteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandPaletteViewController.h; sourceTree = "<group>"; };
+		7549776619EFA71B0003E0A8 /* CommandPaletteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandPaletteViewController.m; sourceTree = "<group>"; };
+		7549776719EFA71B0003E0A8 /* CommandThumbnailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandThumbnailViewController.h; sourceTree = "<group>"; };
+		7549776819EFA71B0003E0A8 /* CommandThumbnailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandThumbnailViewController.m; sourceTree = "<group>"; };
+		7549776D19EFAD0D0003E0A8 /* CommandSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandSlider.h; sourceTree = "<group>"; };
+		7549776E19EFAD0D0003E0A8 /* CommandSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandSlider.m; sourceTree = "<group>"; };
+		7549777019EFBE9F0003E0A8 /* ConsoleCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoleCommands.h; sourceTree = "<group>"; };
+		7549777119EFBE9F0003E0A8 /* ConsoleCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleCommands.m; sourceTree = "<group>"; };
+		75DDF03019EE175400CADB5D /* CanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
+		75DDF03119EE175400CADB5D /* CanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
+		75DDF03419EE71E600CADB5D /* BrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandingFactory.h; sourceTree = "<group>"; };
+		75DDF03519EE71E600CADB5D /* BrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandingFactory.m; sourceTree = "<group>"; };
+		75DDF03719EE727600CADB5D /* AcmeBrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcmeBrandingFactory.h; sourceTree = "<group>"; };
+		75DDF03819EE727600CADB5D /* AcmeBrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcmeBrandingFactory.m; sourceTree = "<group>"; };
+		75DDF03A19EE728700CADB5D /* SierraBrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SierraBrandingFactory.h; sourceTree = "<group>"; };
+		75DDF03B19EE728700CADB5D /* SierraBrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SierraBrandingFactory.m; sourceTree = "<group>"; };
+		75DDF03D19EE73FA00CADB5D /* AcmeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcmeView.h; sourceTree = "<group>"; };
+		75DDF03E19EE73FA00CADB5D /* AcmeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcmeView.m; sourceTree = "<group>"; };
+		75DDF04019EE740700CADB5D /* AcmeMainButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcmeMainButton.h; sourceTree = "<group>"; };
+		75DDF04119EE740700CADB5D /* AcmeMainButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcmeMainButton.m; sourceTree = "<group>"; };
+		75DDF04319EE741E00CADB5D /* AcmeToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcmeToolbar.h; sourceTree = "<group>"; };
+		75DDF04419EE741E00CADB5D /* AcmeToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcmeToolbar.m; sourceTree = "<group>"; };
+		75DDF04619EE7BC500CADB5D /* playViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = playViewController.h; sourceTree = "<group>"; };
+		75DDF04719EE7BC500CADB5D /* playViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = playViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +250,7 @@
 		7540D77E18C5A65A000BB418 /* 设计模式 */ = {
 			isa = PBXGroup;
 			children = (
+				75DDF03319EE71BB00CADB5D /* 抽象工厂 */,
 				753388AB18C94FBD000786D0 /* 访问者 */,
 				75430CC018C85187003A190E /* 中介者 */,
 				75430CAA18C84807003A190E /* 生成器 */,
@@ -256,16 +299,18 @@
 		7540D7A818C5A6BD000BB418 /* 桥接 */ = {
 			isa = PBXGroup;
 			children = (
+				7549777019EFBE9F0003E0A8 /* ConsoleCommands.h */,
+				7549777119EFBE9F0003E0A8 /* ConsoleCommands.m */,
 				7540D7A918C5A6BD000BB418 /* ConsoleController.h */,
 				7540D7AA18C5A6BD000BB418 /* ConsoleController.m */,
+				7540D7B118C5A6BD000BB418 /* TouchConsoleController.h */,
+				7540D7B218C5A6BD000BB418 /* TouchConsoleController.m */,
 				7540D7AB18C5A6BD000BB418 /* ConsoleEmulator.h */,
 				7540D7AC18C5A6BD000BB418 /* ConsoleEmulator.m */,
 				7540D7AD18C5A6BD000BB418 /* GameBoyEmulator.h */,
 				7540D7AE18C5A6BD000BB418 /* GameBoyEmulator.m */,
 				7540D7AF18C5A6BD000BB418 /* GameGearEmulator.h */,
 				7540D7B018C5A6BD000BB418 /* GameGearEmulator.m */,
-				7540D7B118C5A6BD000BB418 /* TouchConsoleController.h */,
-				7540D7B218C5A6BD000BB418 /* TouchConsoleController.m */,
 				75430CA818C846C0003A190E /* 桥接.strings */,
 			);
 			path = "桥接";
@@ -277,8 +322,18 @@
 				75430CA618C84654003A190E /* 适配器.strings */,
 				7540D7B918C5A6FD000BB418 /* Command.h */,
 				7540D7BA18C5A6FD000BB418 /* Command.m */,
+				7549776D19EFAD0D0003E0A8 /* CommandSlider.h */,
+				7549776E19EFAD0D0003E0A8 /* CommandSlider.m */,
 				7540D7BB18C5A6FD000BB418 /* SetStrokeColorCommand.h */,
 				7540D7BC18C5A6FD000BB418 /* SetStrokeColorCommand.m */,
+				7549776119EFA71B0003E0A8 /* CommandCanvasViewController.h */,
+				7549776219EFA71B0003E0A8 /* CommandCanvasViewController.m */,
+				7549776319EFA71B0003E0A8 /* CommandCoordinatingController.h */,
+				7549776419EFA71B0003E0A8 /* CommandCoordinatingController.m */,
+				7549776519EFA71B0003E0A8 /* CommandPaletteViewController.h */,
+				7549776619EFA71B0003E0A8 /* CommandPaletteViewController.m */,
+				7549776719EFA71B0003E0A8 /* CommandThumbnailViewController.h */,
+				7549776819EFA71B0003E0A8 /* CommandThumbnailViewController.m */,
 			);
 			path = "适配器";
 			sourceTree = SOURCE_ROOT;
@@ -302,6 +357,8 @@
 			isa = PBXGroup;
 			children = (
 				75430CA218C84550003A190E /* 工厂方法.strings */,
+				75DDF03019EE175400CADB5D /* CanvasView.h */,
+				75DDF03119EE175400CADB5D /* CanvasView.m */,
 				7540D7D318C5B3DF000BB418 /* PaperCanvasView.h */,
 				7540D7D418C5B3DF000BB418 /* PaperCanvasView.m */,
 				7540D7D618C5B563000BB418 /* ClothCanvasView.h */,
@@ -343,6 +400,8 @@
 				75430CB218C84B50003A190E /* StandardCaracterBuilder.m */,
 				75430CB418C84CB7003A190E /* ChasingGame.h */,
 				75430CB518C84CB7003A190E /* ChasingGame.m */,
+				75DDF04619EE7BC500CADB5D /* playViewController.h */,
+				75DDF04719EE7BC500CADB5D /* playViewController.m */,
 			);
 			path = "生成器";
 			sourceTree = SOURCE_ROOT;
@@ -361,6 +420,25 @@
 				75430CD118C852E2003A190E /* CoordinatingController.m */,
 			);
 			path = "中介者";
+			sourceTree = SOURCE_ROOT;
+		};
+		75DDF03319EE71BB00CADB5D /* 抽象工厂 */ = {
+			isa = PBXGroup;
+			children = (
+				75DDF03419EE71E600CADB5D /* BrandingFactory.h */,
+				75DDF03519EE71E600CADB5D /* BrandingFactory.m */,
+				75DDF03719EE727600CADB5D /* AcmeBrandingFactory.h */,
+				75DDF03819EE727600CADB5D /* AcmeBrandingFactory.m */,
+				75DDF03D19EE73FA00CADB5D /* AcmeView.h */,
+				75DDF03E19EE73FA00CADB5D /* AcmeView.m */,
+				75DDF04019EE740700CADB5D /* AcmeMainButton.h */,
+				75DDF04119EE740700CADB5D /* AcmeMainButton.m */,
+				75DDF04319EE741E00CADB5D /* AcmeToolbar.h */,
+				75DDF04419EE741E00CADB5D /* AcmeToolbar.m */,
+				75DDF03A19EE728700CADB5D /* SierraBrandingFactory.h */,
+				75DDF03B19EE728700CADB5D /* SierraBrandingFactory.m */,
+			);
+			path = "抽象工厂";
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
@@ -464,28 +542,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75DDF03219EE175400CADB5D /* CanvasView.m in Sources */,
+				75DDF04519EE741E00CADB5D /* AcmeToolbar.m in Sources */,
 				7540D7CE18C5ACC3000BB418 /* Dot.m in Sources */,
 				7540D7B418C5A6BD000BB418 /* ConsoleEmulator.m in Sources */,
+				75DDF03919EE727600CADB5D /* AcmeBrandingFactory.m in Sources */,
 				7540D7B618C5A6BD000BB418 /* GameGearEmulator.m in Sources */,
+				7549776C19EFA71B0003E0A8 /* CommandThumbnailViewController.m in Sources */,
 				75430CB318C84B50003A190E /* StandardCaracterBuilder.m in Sources */,
 				7540D7B718C5A6BD000BB418 /* TouchConsoleController.m in Sources */,
 				7540D7BD18C5A6FD000BB418 /* Command.m in Sources */,
+				75DDF04219EE740700CADB5D /* AcmeMainButton.m in Sources */,
 				75430CB018C8497C003A190E /* CharacterBuilder.m in Sources */,
 				7540D78918C5A65A000BB418 /* AppDelegate.m in Sources */,
+				7549776A19EFA71B0003E0A8 /* CommandCoordinatingController.m in Sources */,
+				7549776919EFA71B0003E0A8 /* CommandCanvasViewController.m in Sources */,
 				7540D7B318C5A6BD000BB418 /* ConsoleController.m in Sources */,
+				75DDF04819EE7BC500CADB5D /* playViewController.m in Sources */,
+				75DDF03619EE71E600CADB5D /* BrandingFactory.m in Sources */,
+				75DDF03F19EE73FA00CADB5D /* AcmeView.m in Sources */,
 				75430CBC18C84F28003A190E /* Taximeter.m in Sources */,
+				7549776F19EFAD0D0003E0A8 /* CommandSlider.m in Sources */,
 				7540D7E418C5B8E9000BB418 /* canvasViewCondtroller.m in Sources */,
 				7540D7D818C5B563000BB418 /* ClothCanvasView.m in Sources */,
 				75430CBF18C84F56003A190E /* CabDriver.m in Sources */,
 				75430CAD18C84841003A190E /* Character.m in Sources */,
 				7540D7BE18C5A6FD000BB418 /* SetStrokeColorCommand.m in Sources */,
+				7549776B19EFA71B0003E0A8 /* CommandPaletteViewController.m in Sources */,
 				75430CB618C84CB7003A190E /* ChasingGame.m in Sources */,
 				75430CC918C85283003A190E /* CanvasViewController.m in Sources */,
 				7540D7E118C5B6C1000BB418 /* ClothCanvasViewGenerator.m in Sources */,
 				7540D7D518C5B3DF000BB418 /* PaperCanvasView.m in Sources */,
+				7549777219EFBE9F0003E0A8 /* ConsoleCommands.m in Sources */,
 				75430CCF18C852B1003A190E /* ThumbnailViewController.m in Sources */,
 				75430CB918C84EE0003A190E /* Car.m in Sources */,
 				7540D7DB18C5B5D9000BB418 /* CanvasViewGenerator.m in Sources */,
+				75DDF03C19EE728700CADB5D /* SierraBrandingFactory.m in Sources */,
 				75430CCC18C85299003A190E /* PaletteViewController.m in Sources */,
 				7540D7DE18C5B65F000BB418 /* PaperCanvasViewGenerator.m in Sources */,
 				7540D7CB18C5AA28000BB418 /* Vertex.m in Sources */,

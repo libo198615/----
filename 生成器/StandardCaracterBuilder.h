@@ -7,10 +7,8 @@
 
 #import "CharacterBuilder.h"
 
+/* 具体生成器 */
 @interface StandardCaracterBuilder : CharacterBuilder
-
-
-
 
 - (CharacterBuilder *)buildStrength:(float )value;
 - (CharacterBuilder *)buildStamina:(float )value;

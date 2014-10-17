@@ -7,12 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CanvasView.h"
 #import "CanvasViewGenerator.h"
 
 @interface canvasViewCondtroller : UIViewController
 
 
-@property (nonatomic, retain) UIView *view;
+@property (nonatomic, retain) CanvasView *canvasView;
 
 
 - (void)loadCanvasViewWithGenerator:(CanvasViewGenerator *)generator;

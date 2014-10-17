@@ -7,9 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CanvasView.h"
 
+/* 画布视图生成器 */
 @interface CanvasViewGenerator : NSObject
 
-- (UIView *)canvasViewWithFrame:(CGRect )aFrame;
+- (CanvasView *)canvasViewWithFrame:(CGRect )aFrame;
 
 @end

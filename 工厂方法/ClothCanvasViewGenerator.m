@@ -11,7 +11,7 @@
 @implementation ClothCanvasViewGenerator
 
 
-- (UIView *)canvasViewWithFrame:(CGRect )aFrame{
+- (CanvasView *)canvasViewWithFrame:(CGRect )aFrame{
     return [[ClothCanvasView alloc] initWithFrame:aFrame];
 }
 

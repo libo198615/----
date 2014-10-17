@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CanvasView.h"
 
 //一个类无法预期需要生成那个类，想让其子类指定所生成的对象
 
-@interface PaperCanvasView : UIView
+@interface PaperCanvasView : CanvasView
 
 @end

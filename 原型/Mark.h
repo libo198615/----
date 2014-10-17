@@ -17,11 +17,11 @@
 @property (nonatomic, readonly) NSUInteger count;
 @property (nonatomic, readonly) id <Mark> lastChild;
 
-
+/* mark协议采用了NSObject协议， NSObjection协议没有声明copy方法 */
 - (id)copy;
-- (void)addMark:(id <Mark>) mark;
-- (void)removeMark:(id <Mark> mark);
-- (id <mark>)childMrkAtIndex:(NSUInteger )index;
+- (void)addMark:(id<Mark>) mark;
+- (void)removeMark:(id<Mark>)mark;
+- (id <Mark>)childMrkAtIndex:(NSUInteger )index;
 
 
 @end

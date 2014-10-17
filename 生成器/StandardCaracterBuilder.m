@@ -10,7 +10,7 @@
 
 @implementation StandardCaracterBuilder
 
-
+/* 智力，力量，敏捷 不同 */
 - (CharacterBuilder *)buildStrength:(float)value{
     self.character.protection *= value;
     self.character.power *= value;

@@ -9,9 +9,8 @@
 #import "CharacterBuilder.h"
 #import "StandardCaracterBuilder.h"
 
+/* 指导者 */
 @interface ChasingGame : NSObject
-
-
 
 - (Character *)createPlayer:(CharacterBuilder *)builder;
 

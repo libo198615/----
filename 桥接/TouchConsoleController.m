@@ -12,11 +12,37 @@
 @implementation TouchConsoleController
 
 - (void)up{
-    [super setCommand:kConsoleCommandUp];
+    [super setCommand:ConsoleCommandUp];
 }
 
 - (void)down{
-    [super setCommand:kConsoleCommandDown];
+    [super setCommand:ConsoleCommandDown];
 }
+
+- (void)left{
+    [super setCommand:ConsoleCommandLeft];
+}
+
+- (void)right{
+    [super setCommand:ConsoleCommandRight];
+}
+
+- (void)select{
+    [super setCommand:ConsoleCommandSelect];
+}
+
+- (void)start{
+    [super setCommand:ConsoleCommandStart];
+}
+
+- (void)action1{
+    [super setCommand:ConsoleCommandAction1];
+}
+
+- (void)action2{
+    [super setCommand:ConsoleCommandAction2];
+}
+
+
 
 @end

@@ -7,11 +7,12 @@
 //
 
 #import "CanvasViewGenerator.h"
+#import "CanvasView.h"
 #import "ClothCanvasView.h"
 
+/* 木质 */
 @interface ClothCanvasViewGenerator : CanvasViewGenerator
 
-
-- (UIView *)canvasViewWithFrame:(CGRect )aFrame;
+- (CanvasView *)canvasViewWithFrame:(CGRect )aFrame;
 
 @end

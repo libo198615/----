@@ -10,4 +10,7 @@
 
 @interface GameBoyEmulator : ConsoleEmulator
 
+- (void)loadInstructionsForCommand:(ConsoleCommand)command;
+- (void)executeInstructions;
+
 @end

@@ -10,22 +10,23 @@
 
 @implementation ChasingGame
 
-
-
 - (Character *)createPlayer:(CharacterBuilder *)builder{
     [builder buildNewCharacter];
-    [builder buildStrength:5.0];
-    [builder buildStrength:25.0];
+    [builder buildStrength:50.0];
+    [builder buildStamina:25.0];
+    [builder buildIntelligence:70.0];
     
     return [builder character];
 }
 
-//客户端使用
-- (void)do{
-
-    CharacterBuilder *characterBuilder = [[StandardCaracterBuilder alloc] init];
-    ChasingGame *game = [[ChasingGame alloc] init];
-    Character *player = [game createPlayer:characterBuilder];
+- (Character *)createEnemy:(CharacterBuilder *)builder{
+    [builder buildNewCharacter];
+    [builder buildStrength:80.0];
+    [builder buildStamina:65.0];
+    [builder buildIntelligence:35.0];
+    
+    return [builder character];
 }
+
 
 @end

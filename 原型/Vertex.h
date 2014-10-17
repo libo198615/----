@@ -19,10 +19,13 @@
 @property (nonatomic, readonly) id <Mark> lastChild;
 
 - (id)initWithLocation:(CGPoint )aLocation;
+/* 任何实现了<Mark>协议的 id 都可以作为参数 */
 - (void)addMark:(id<Mark>)mark;
 - (void)removeMark:(id <Mark>)mark;
 - (id<Mark>)childMrkAtIndex:(NSUInteger)index;
 
+
+/* NSObject型的接收器收到copy消息时，NSObject会依次向其采用了NSCopying协议的子类转发消息 */
 - (id)copyWithZone:(NSZone *)zone;
 
 

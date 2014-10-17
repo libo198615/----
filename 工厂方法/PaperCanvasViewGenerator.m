@@ -10,7 +10,7 @@
 
 @implementation PaperCanvasViewGenerator
 
-- (UIView *)canvasViewWithFrame:(CGRect )aFrame{
+- (CanvasView *)canvasViewWithFrame:(CGRect )aFrame{
     return [[PaperCanvasView alloc] initWithFrame:aFrame];
 }
 

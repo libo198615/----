@@ -11,8 +11,8 @@
 @implementation CanvasViewGenerator
 
 
-- (UIView *)canvasViewWithFrame:(CGRect )aFrame{
-    return [[UIView alloc] initWithFrame:aFrame];
+- (CanvasView *)canvasViewWithFrame:(CGRect )aFrame{
+    return [[CanvasView alloc] initWithFrame:aFrame];
 }
 
 

@@ -7,20 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ConsoleCommands.h"
 
-typedef enum {
-    kConsoleCommandUp,
-    kConsoleCommandDown,
-    kConsoleCommandLeft,
-    kConsoleCommandRight,
-    kConsoleCommandSelect,
-    kConsoleCommandStart,
-    kConsoleCommandAction1,
-    kConsoleCommandAction2,
-}ConsoleCommand;
-
+/* 控制台模拟器 */
 @interface ConsoleEmulator : NSObject
-
 
 - (void)loadInstructionsForCommand:(ConsoleCommand)command;
 - (void)executeInstructions;

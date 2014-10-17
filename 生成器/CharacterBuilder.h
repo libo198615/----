@@ -8,14 +8,14 @@
 #import <Foundation/Foundation.h>
 #import "Character.h"
 
-@interface CharacterBuilder : NSObject{
+/* 抽象生成器 */
+@interface CharacterBuilder : NSObject
+{
 @protected
     Character *character;//不能用self 存取方法
 }
 
 @property (nonatomic, readonly) Character *character;
-
-
 
 - (CharacterBuilder *)buildNewCharacter;
 - (CharacterBuilder *)buildStrength:(float )value;
