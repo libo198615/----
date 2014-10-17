@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MarkEnumerator.h"
 
 @protocol Mark <NSObject>
-
 
 @property (nonatomic, strong) UIColor *color;
 @property (nonatomic, assign) CGFloat size;
@@ -23,5 +23,11 @@
 - (void)removeMark:(id<Mark>)mark;
 - (id <Mark>)childMrkAtIndex:(NSUInteger )index;
 
+- (void)drawWithContext:(CGContextRef )context;
+
+- (NSEnumerator *)enumerator;
+
+/* 用于实现内部迭代器 */
+- (void)enumerateMarksUsingBlock:(void (^)(id <Mark>item, BOOL *stop))block;
 
 @end

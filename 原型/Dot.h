@@ -16,5 +16,6 @@
 
 - (id)copyWithZone:(NSZone *)zone;
 
+- (void)drawWithContext:(CGContextRef )context;
 
 @end

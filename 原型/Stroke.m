@@ -61,8 +61,30 @@
     return strokeCopy;
 }
 
+- (void)drawWithContext:(CGContextRef )context{
+    CGContextMoveToPoint(context, self.location.x, self.location.y);
+    for (id <Mark>mark in _children) {
+        [mark drawWithContext:context];
+    }
+    CGContextSetStrokeColorWithColor(context, [self.color CGColor]);
+    CGContextStrokePath(context);
+}
 
 
+- (NSEnumerator *)enumerator{
+    return [[MarkEnumerator alloc] initWithMark:self];
+}
+
+- (void)enumerateMarksUsingBlock:(void (^)(id <Mark>item, BOOL *stop))block{
+    BOOL stop = NO;
+    NSEnumerator *enumerator = [self enumerator];
+    for (id <Mark> mark in enumerator) {
+        block(mark, &stop);
+        if (stop) {
+            break;
+        }
+    }
+}
 
 
 @end

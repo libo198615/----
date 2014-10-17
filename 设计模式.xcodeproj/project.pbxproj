@@ -58,6 +58,8 @@
 		7549776C19EFA71B0003E0A8 /* CommandThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7549776819EFA71B0003E0A8 /* CommandThumbnailViewController.m */; };
 		7549776F19EFAD0D0003E0A8 /* CommandSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 7549776E19EFAD0D0003E0A8 /* CommandSlider.m */; };
 		7549777219EFBE9F0003E0A8 /* ConsoleCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = 7549777119EFBE9F0003E0A8 /* ConsoleCommands.m */; };
+		75B748B319F1040400E6AB5B /* NSMutableArray+Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B748B219F1040400E6AB5B /* NSMutableArray+Stack.m */; };
+		75B748BC19F1061100E6AB5B /* MarkEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B748BB19F1061100E6AB5B /* MarkEnumerator.m */; };
 		75DDF03219EE175400CADB5D /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DDF03119EE175400CADB5D /* CanvasView.m */; };
 		75DDF03619EE71E600CADB5D /* BrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DDF03519EE71E600CADB5D /* BrandingFactory.m */; };
 		75DDF03919EE727600CADB5D /* AcmeBrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DDF03819EE727600CADB5D /* AcmeBrandingFactory.m */; };
@@ -168,6 +170,10 @@
 		7549776E19EFAD0D0003E0A8 /* CommandSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandSlider.m; sourceTree = "<group>"; };
 		7549777019EFBE9F0003E0A8 /* ConsoleCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoleCommands.h; sourceTree = "<group>"; };
 		7549777119EFBE9F0003E0A8 /* ConsoleCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleCommands.m; sourceTree = "<group>"; };
+		75B748B119F1040400E6AB5B /* NSMutableArray+Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Stack.h"; sourceTree = "<group>"; };
+		75B748B219F1040400E6AB5B /* NSMutableArray+Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Stack.m"; sourceTree = "<group>"; };
+		75B748BA19F1061100E6AB5B /* MarkEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkEnumerator.h; sourceTree = "<group>"; };
+		75B748BB19F1061100E6AB5B /* MarkEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkEnumerator.m; sourceTree = "<group>"; };
 		75DDF03019EE175400CADB5D /* CanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
 		75DDF03119EE175400CADB5D /* CanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
 		75DDF03419EE71E600CADB5D /* BrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandingFactory.h; sourceTree = "<group>"; };
@@ -349,6 +355,10 @@
 				7540D7CD18C5ACC3000BB418 /* Dot.m */,
 				7540D7CF18C5AE4A000BB418 /* Stroke.h */,
 				7540D7D018C5AE4A000BB418 /* Stroke.m */,
+				75B748B119F1040400E6AB5B /* NSMutableArray+Stack.h */,
+				75B748B219F1040400E6AB5B /* NSMutableArray+Stack.m */,
+				75B748BA19F1061100E6AB5B /* MarkEnumerator.h */,
+				75B748BB19F1061100E6AB5B /* MarkEnumerator.m */,
 			);
 			path = "原型";
 			sourceTree = SOURCE_ROOT;
@@ -550,6 +560,7 @@
 				7540D7B618C5A6BD000BB418 /* GameGearEmulator.m in Sources */,
 				7549776C19EFA71B0003E0A8 /* CommandThumbnailViewController.m in Sources */,
 				75430CB318C84B50003A190E /* StandardCaracterBuilder.m in Sources */,
+				75B748B319F1040400E6AB5B /* NSMutableArray+Stack.m in Sources */,
 				7540D7B718C5A6BD000BB418 /* TouchConsoleController.m in Sources */,
 				7540D7BD18C5A6FD000BB418 /* Command.m in Sources */,
 				75DDF04219EE740700CADB5D /* AcmeMainButton.m in Sources */,
@@ -574,6 +585,7 @@
 				7540D7E118C5B6C1000BB418 /* ClothCanvasViewGenerator.m in Sources */,
 				7540D7D518C5B3DF000BB418 /* PaperCanvasView.m in Sources */,
 				7549777219EFBE9F0003E0A8 /* ConsoleCommands.m in Sources */,
+				75B748BC19F1061100E6AB5B /* MarkEnumerator.m in Sources */,
 				75430CCF18C852B1003A190E /* ThumbnailViewController.m in Sources */,
 				75430CB918C84EE0003A190E /* Car.m in Sources */,
 				7540D7DB18C5B5D9000BB418 /* CanvasViewGenerator.m in Sources */,

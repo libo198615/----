@@ -9,8 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "Mark.h"
 
+/* 顶点 */
 @interface Vertex : NSObject <Mark, NSCopying>//最高点 定点
-
 
 @property (nonatomic, retain) UIColor *color;
 @property (nonatomic, assign) CGFloat size;
@@ -28,6 +28,6 @@
 /* NSObject型的接收器收到copy消息时，NSObject会依次向其采用了NSCopying协议的子类转发消息 */
 - (id)copyWithZone:(NSZone *)zone;
 
-
+- (void)drawWithContext:(CGContextRef )context;
 
 @end

@@ -24,6 +24,6 @@
 - (id <Mark>)childMrkAtIndex:(NSUInteger)index;
 - (id)copyWithZone:(NSZone *)zone;
 
-
+- (void)enumerateMarksUsingBlock:(void (^)(id <Mark>item, BOOL *stop))block;
 
 @end
